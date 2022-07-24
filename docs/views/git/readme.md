@@ -70,8 +70,11 @@ git rm --cached [file]
 # 改名文件，并且将这个改名放入暂存区
 git mv [file-original] [file-renamed]
 
-# 删除本地origin仓库
+# 删除本地origin远程仓库
 git remote remove origin
+
+# 删除指定的远程仓库
+git remote rm origin
 ```
 
 ### **提交（Commit）**
