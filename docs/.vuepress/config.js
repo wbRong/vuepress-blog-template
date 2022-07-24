@@ -1,13 +1,7 @@
-// const private = require('./private/private')
-// 把最后更改时间更改为 中国地区的样式
-// const moment = require('moment');
-// moment.locale("zh-cn") //显示中国的时间格式
-
 module.exports = {
   title: "Ring博客",
   port: '5556',//端口号
   dest: './dist', //打包输出文件路径
-  // description: 'Just playing around',
   // 默认多语言配置
   // https://vuepress-theme-reco.recoluan.com/views/1.x/local.html
   locales: {
@@ -30,7 +24,6 @@ module.exports = {
     type: "blog",
     fullscreen: true, //全屏
     logo: null,
-    // logo: "/img/favicon.ico",
     description:'Ring个人博客，不定期地发一些个人笔记，对自己的知识进行总结',
     // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
     nextLinks: true,
@@ -73,10 +66,9 @@ module.exports = {
   editLinkText: '在 GitHub 上编辑此页 ！',
   markdown: {
     lineNumbers: true, //代码显示行号
-  }, // 搜索设置
+  },
   // Vuepress 插件，
   plugins: {
-    'alias':false,//生成别名页面以进行正确的重定向处理
     'vuepress-plugin-code-copy':true,//一键复制代码插件
     'reading-progress': true,//阅读进度条
   },
