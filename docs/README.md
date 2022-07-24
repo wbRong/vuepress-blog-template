@@ -1,11 +1,13 @@
 ---
 home: true
-tagline: 我是一只小小小小鸟~
-heroText: PengSir
-bgImageStyle: { height: "100vh" }
+tagline: 我们都各自发光，不必吹灭别人的灯
+heroText: Ring
+bgImageStyle: {
+  height: "50vh"
+}
 heroTextStyle: {
   color: '#fff'
 }
-bgImage: "/images/bg-logo.svg"
+bgImage: /img/home.jpg
 isShowTitleInHome: false
 ---

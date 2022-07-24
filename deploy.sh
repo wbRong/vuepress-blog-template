@@ -13,8 +13,8 @@ cd docs/.vuepress/dist
 echo 'www.bookbook.cc' > CNAME
 
 git init
-git add -A
-git commit -m 'deploy'
+git add .
+git commit -m 'initial'
 
 # 如果发布到 https://<USERNAME>.github.io
 git push -f  https://github.com/penggang-home/penggang-home.gitub.io.git master:gh-pages

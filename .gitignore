@@ -10,7 +10,6 @@ bin-release/
 # Executables
 *.swf
 *.air
-*.ipa
 *.apk
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
@@ -18,6 +17,15 @@ bin-release/
 # information for Eclipse / Flash Builder.
 
 node_modules
-# docs/.vuepress/private/
-data
-docs/.vuepress/dist
+docs/views/aggregate
+docs/views/JavaScript
+docs/views/Vue
+docs/views/nginx
+dist
+*.zip
+*.rar
+*.tmp
+*.err
+.temp
+deploy.sh
+readme-two.md

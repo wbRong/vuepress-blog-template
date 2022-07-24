@@ -7,7 +7,7 @@ categories:
 tags:
  - Vue
  - VuePress
-sticky: 1
+publish: false
 ---
 
 :::tip
@@ -39,13 +39,8 @@ sticky: 1
 
 但是你看见的大多数个人博客并不是那些风格，例如：
 ![bookbook](../images/vuepress/bookbook.png)
-![lookroot](../images/vuepress/lookroot.png)
 
 此时 你需要了解 [VuePress-theme-reco](https://vuepress-reco-doc.now.sh/),这是一位大佬开源的一款 VuePress 主题。使用它你就能使用极少的配置搭建一款不错的个人博客。
 
 
 好了，本文就到这里，如果你有什么奇怪的想法或者疑惑可以联系我，也许我能帮助到你。
-
-|QQ|WeChat|
-|--|--|
-|![QQ](/images/qq.jpg)|![wx](/images/wx.jpg)|

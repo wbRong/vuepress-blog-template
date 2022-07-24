@@ -1,9 +1,28 @@
-# simple-blog
+#### vuepress-blog-template
+### 介绍
+基于[vuepress](https://www.vuepress.cn/)静态网站生成器
 
-#### 介绍
-一个极简主义Blog网站
+### 安装
+```sh
+npm install
+```
 
-#### 运行
-如果你想运行该项目，你首先应该 Clone 项目，
-然后进入项目目录 输入 npm install,安装项目依赖
-之后再输入 npm run docs:dev 该项目将会在你本地开启一个服务器，并运行在 8080 端口
+### 启动
+``` sh
+npm run dev
+```
+
+默认：并运行在**http://localhost:5556/** 
+可在`docs/.vuepress/config.js`找到`port`修改
+
+
+### 打包
+``` sh
+npm run build
+```
+
+[vuepress官网文档](https://www.vuepress.cn/)
+
+[vuepress配置文档](https://vuepress-theme-reco.recoluan.com/views/1.x/)
+
+[vuepress插件商店](https://github.com/vuepress/awesome-vuepress#plugins)
